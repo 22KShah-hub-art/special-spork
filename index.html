@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI object finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body background="whatsapp.jpg">
+    <center>
+        <h1>AI object finder</h1>
+        <h2>This app will help you find anything you have lost</h2>
+        <br>
+        <input id="object_name" placeholder="object name" type="text">
+        <br>
+
+        <button id="startup" onclick="start()">Start</button>
+        <br>
+        <h3 id="status" class="btn btn-danger"></h3>
+        <br>
+        <h3 id="Objectfoundornot" class="btn btn-warning"></h3>
+        <br>
+    </center>
+</body>
+</html>
